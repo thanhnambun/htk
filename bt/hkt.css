@@ -1,0 +1,146 @@
+.tong2 {
+    display: flex;
+    margin: 10px 120px;
+    background-color: rgb(249, 245, 245);
+    height: 570px;
+    border-radius: 20px;
+    margin-top: 100px;
+  }
+
+  .right {
+    margin: 50px 20px;
+    font-family: Inter, Helvetica, sans-serif;
+  }
+
+  .right label {
+    font-size: 20px;
+  }
+
+  .ten {
+    display: flex;
+    margin-left: 600px;
+  }
+  #scoreList {
+    display: flex;
+    margin-left: 400px;
+    gap: 30px;
+  }
+  .feedback {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    background-color: white;
+    justify-content: center;
+    text-align: center;
+    line-height: 40px;
+  }
+  .centered-input-container {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  }
+
+  .input-wrapper {
+    position: relative;
+  }
+
+  .input-wrapper input {
+    width: 500px;
+    height: 50px;
+  }
+
+  .input-wrapper button {
+    position: absolute;
+    top: 0;
+    right: 0;
+    height: 100%;
+    width: 100px;
+  }
+  table.table tr th,
+  table.table tr td {
+    border-color: #e9e9e9;
+  }
+  table.table th i {
+    font-size: 13px;
+    margin: 0 5px;
+    cursor: pointer;
+  }
+  table.table td:last-child {
+    width: 130px;
+  }
+  table.table td a {
+    color: #a0a5b1;
+    display: inline-block;
+    margin: 0 5px;
+  }
+  table.table td a.view {
+    color: #03a9f4;
+  }
+  table.table td a.edit {
+    color: #ffc107;
+  }
+  table.table td a.delete {
+    color: #e34724;
+  }
+  table.table td i {
+    font-size: 19px;
+  }
+  .pagination {
+    float: right;
+    margin: 0 0 5px;
+  }
+  .pagination li a {
+    border: none;
+    font-size: 13px;
+    min-width: 30px;
+    min-height: 30px;
+    padding: 0 10px;
+    color: #999;
+    margin: 0 2px;
+    line-height: 30px;
+    border-radius: 30px !important;
+    text-align: center;
+  }
+  .pagination li a:hover {
+    color: #666;
+  }
+  .pagination li.active a {
+    background: #03a9f4;
+  }
+  .pagination li.active a:hover {
+    background: #0397d6;
+  }
+  .pagination li.disabled i {
+    color: #ccc;
+  }
+  .pagination li i {
+    font-size: 16px;
+    padding-top: 6px;
+  }
+  .hint-text {
+    float: left;
+    margin-top: 10px;
+    font-size: 13px;
+  }
+  .col-sm-4 {
+    margin-left: 100px;
+  }
+  .doimau {
+    color: #03a9f4;
+  }
+  .crile-1 {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    background-color: rgb(238, 150, 150);
+    font-size: 24px;
+    cursor: pointer;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .btn-selected {
+    background-color: rgb(220, 39, 69);
+    color: #fff;
+  }
